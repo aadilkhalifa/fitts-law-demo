@@ -1,0 +1,21 @@
+.homeDiv {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    a {
+        color: black;
+        font-size: 1.5em;
+        border: 1px solid black;
+        padding: 20px 30px;
+        border-radius: 10px;
+        background-color: rgb(236, 236, 236);
+        font-weight: bold;
+
+        &:hover {
+            background-color: rgb(226, 226, 226);
+        }
+    }
+}
